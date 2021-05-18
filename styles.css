@@ -1,0 +1,86 @@
+body{
+ 
+    font-family: 'Handlee', cursive;
+    background-color:black;
+    font-weight: bold;
+}
+.cardcontainer{
+    display:block;
+    background-color:white;
+    padding:10px;
+    width: 15cm;
+    height: 10cm;
+    margin:auto;
+    position: absolute;
+    top: 50%;  /*y*/
+    left: 50%; /*x*/
+    transform:translate(-50%,-50%); /* translate(x,y)*/
+  }
+
+/*Cabecera postal*/
+.headercard{
+overflow:hidden;
+}
+
+    .headercard img{ 
+    float:right;
+    max-width: 75px;
+    }
+
+/* Texto postal*/
+
+.bodycard{
+    overflow:hidden;
+    
+}
+    .textcard{
+        
+        float:left;
+        width:45%;
+        text-align : justify;
+        font-size:1.2em;
+
+    }
+
+    /* Informacion envio*/
+
+    .addresscard{
+        float:right;
+        width:45%;
+        padding:5px;
+        left:50%;
+    }
+   
+    .addresscard input{
+        display:block; /* las propiedades afectan a toda la fila de input*/
+        
+        font-size:18px;
+        font-style:italic;
+        border:none;
+        border-bottom:solid 1px gray;
+        font-family: 'Handlee', cursive;
+        font-weight:bold;
+         width:300px;
+
+    }
+/* Posicion y propiedades Boton*/
+
+   .posbutton{
+       padding:10px;
+        text-align:center;
+        }
+       
+        .posbutton input{
+           font-size:1.3em;
+           background-color:gray;
+           border:none;
+           border-bottom: 1px solid black;
+           font-family: 'Handlee', cursive;
+           font-weight:bold;
+          
+           
+           
+        }
+            
+           
+
